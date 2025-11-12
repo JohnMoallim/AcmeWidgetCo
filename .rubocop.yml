@@ -53,3 +53,7 @@ RSpec/MultipleExpectations:
 RSpec/NestedGroups:
   Max: 5
 
+# Disable problematic Capybara predicate matcher cop (known RuboCop bug)
+Capybara/RSpec/PredicateMatcher:
+  Enabled: false
+

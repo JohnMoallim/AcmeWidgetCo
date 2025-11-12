@@ -8,8 +8,8 @@ gem 'bigdecimal', '~> 3.1'
 
 group :development, :test do
   gem 'rspec', '~> 3.12'
-  gem 'rubocop', '~> 1.50', require: false
-  gem 'rubocop-rspec', '~> 2.20', require: false
+  gem 'rubocop', '~> 1.60', require: false
+  gem 'rubocop-rspec', '~> 2.27', require: false
   gem 'simplecov', '~> 0.22', require: false
   gem 'simplecov-console', '~> 0.9', require: false
   gem 'yard', '~> 0.9', require: false
