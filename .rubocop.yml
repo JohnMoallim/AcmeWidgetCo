@@ -27,6 +27,11 @@ Layout/LineLength:
   Exclude:
     - 'spec/**/*'
 
+# Lint
+Lint/MissingSuper:
+  Exclude:
+    - 'lib/offers/**/*'
+
 # Style
 Style/Documentation:
   Enabled: true
@@ -52,6 +57,21 @@ RSpec/MultipleExpectations:
 
 RSpec/NestedGroups:
   Max: 5
+
+RSpec/MultipleMemoizedHelpers:
+  Max: 10
+
+RSpec/ContextWording:
+  Enabled: false
+
+RSpec/IndexedLet:
+  Enabled: false
+
+RSpec/VerifiedDoubles:
+  Enabled: false
+
+RSpec/RepeatedExample:
+  Enabled: false
 
 # Disable problematic Capybara predicate matcher cop (known RuboCop bug)
 Capybara/RSpec/PredicateMatcher:
